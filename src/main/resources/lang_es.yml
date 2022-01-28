@@ -1,0 +1,39 @@
+options:
+  global_chat_enabled: "&eAhora puedes ver el chat global."
+  global_chat_disabled: "&cYa no puedes ver el chat global."
+  private_messages_enabled: "&aAhora puedes recibir mensajes privados."
+  private_messages_disabled: "&cYa no puedes recibir mensajes privados. Si inicias conversacion con un jugador, el podra responderte."
+  private_message_sounds_enabled: "&eAhora puedes recibir los sonidos de mensajes privados."
+  private_message_sounds_disabled: "&cYa no puedes recibir los sonidos de mensajes privados."
+  lang_change: "&aTu idioma ha sido cambiado a &f{0}"
+  menu:
+    chat:
+      global_chat_name: "&a&lGlobal Chat"
+      global_chat_description: "Si lo activas, podras ver el chat global."
+      global_chat_enable: "Activar el chat global"
+      global_chat_disable: "Desactivar el chat global"
+    sound:
+      private_message_sounds_name: "&e&lSonidos de mensajes privados"
+      private_message_sounds_description: "Si lo activas, podras escuchar un sonido cuando recibas un mensaje privado."
+      private_message_sounds_enable: "Activar sonidos en mensajes privados"
+      private_message_sounds_disable: "Desactivar sonidos en mensajes privados"
+    pm:
+      private_message_name: "&c&lMensaje privados"
+      private_message_description: "Si lo actvias, podras recibir mensaje privados."
+      private_message_enable: "Recibir mensajes privados"
+      private_message_disable: "No recibir mensajes privados"
+common_errors:
+  failed_to_load_profile: "&cHa fallado la carga de tu prefil. Intenta de nuevo mas tarde."
+  could_not_resolve_player: "&cCould not resolve player information..."
+  player_not_found: "&cEl jugador con ese nombre no se pudo encontrar."
+chat:
+  clear_chat_broadcast: "&eThe chat has been cleared by &r{0}"
+  mute_chat_broadcast: "&eThe chat has been {0} by &r{1}"
+  delay_chat_enabled_broadcast: "&eThe chat has been delayed by &r{0} &7({1} second{2})"
+  delay_chat_disabled_broadcast: "&eThe chat delay has been lifted by &r{0}"
+  chat_delayed: "&cSlow down! you may chat again in {0} seconds."
+economy:
+  insufficient_money: ""
+  payment_made: ""
+  payment_received: ""
+  subtract_balance: ""

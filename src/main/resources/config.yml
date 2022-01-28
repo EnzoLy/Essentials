@@ -1,0 +1,14 @@
+mongo:
+  host: 127.0.0.1
+  port: 27017
+  authentication:
+    enabled: false
+    username: ''
+    password: ''
+chat:
+  format: "&6{rank}{player_name} &9{arrow} &7{msg}"
+  clear_chat_for_staff: false
+conversation:
+  send_message: "&7(To &r{name}&7) {msg}"
+  receive_message: "&7(From &r{name}&7) {msg}"
+  spy_format: "&c[SPY] &7(To &r{to} / From &r{from}) &f{msg}"
