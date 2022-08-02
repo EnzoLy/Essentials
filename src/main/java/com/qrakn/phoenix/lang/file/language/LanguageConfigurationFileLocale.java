@@ -2,10 +2,11 @@ package com.qrakn.phoenix.lang.file.language;
 
 public enum LanguageConfigurationFileLocale{
     ENGLISH("en"), 
-    EXPLICIT("ex"), 
+    JAPANESE("ja"),
+    EXPLICIT("ex"),
     FRENCH("fr"), 
     SPANISH("es"), 
-    PORTUGUESE("pt");
+    PORTUGUESE("po");
     
     private final String abbreviation;
     
