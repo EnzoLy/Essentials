@@ -1,0 +1,40 @@
+options:
+  global_chat_enabled: "&eグローバルチャットが表示されるようになりました。"
+  global_chat_disabled: "&cグローバル チャットは表示されなくなります。"
+  private_messages_enabled: "&a新しい会話を受信できるようになりました。"
+  private_messages_disabled: "&c新しい会話を受信できなくなりました。プレイヤーとの会話を開始すると、プレイヤーはあなたにメッセージを返すことができます。"
+  private_message_sounds_enabled: "&eプライベート メッセージのサウンドを有効にしました。"
+  private_message_sounds_disabled: "&cプライベート メッセージのサウンドを無効にしました。"
+  lang_change: "&aあなたの言語はに変更されました &f{0}"
+  menu:
+    chat:
+      global_chat_name: "&a&l公開チャット"
+      global_chat_description: "有効にすると、公開チャット メッセージを受信します。"
+      global_chat_enable: "公開チャット メッセージを受信する。"
+      global_chat_disable: "公開チャット メッセージを受信しない。"
+    sound:
+      private_message_sounds_name: "&e&lプライベートチャットサウンド"
+      private_message_sounds_description: "有効にすると、プライベート チャット メッセージを受信したときにサウンドが再生されます。"
+      private_message_sounds_enable: "プライベート チャット メッセージの音を鳴らす"
+      private_message_sounds_disable: "プライベート チャット メッセージの音を再生しない"
+    pm:
+      private_message_name: "&c&lプライベートメッセージ"
+      private_message_description: "有効にすると、プライベート メッセージを受信します。"
+      private_message_enable: "プライベート メッセージを受信する"
+      private_message_disable: "プライベート メッセージを受信しない"
+common_errors:
+  failed_to_load_profile: "&cプロフィールを読み込めませんでした。あとでもう一度試してみてください。"
+  could_not_resolve_player: "&cプレイヤー情報を解決できませんでした..."
+  player_not_found: "&cその名前のプレイヤーは見つかりませんでした。"
+  no_players: "&cオンラインプレーヤーはありません。"
+chat:
+  clear_chat_broadcast: "&eチャットはによって削除されました &r{0}"
+  mute_chat_broadcast: "&eチャットは {0} に &r{1}"
+  delay_chat_enabled_broadcast: "&eチャットの遅延時間: &r{0} &7({1} second{2})"
+  delay_chat_disabled_broadcast: "&eチャットの遅延が解除されました &r{0}"
+  chat_delayed: "&c徐行！でもう一度チャットできます{0} seconds."
+economy:
+  insufficient_money: "&cバランスが足りない。"
+  payment_made: ""
+  payment_received: ""
+  subtract_balance: ""

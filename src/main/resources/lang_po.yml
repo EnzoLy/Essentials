@@ -1,0 +1,40 @@
+options:
+  global_chat_enabled: "&eAgora você pode ver o bate-papo global."
+  global_chat_disabled: "&cVocê não verá mais o bate-papo global."
+  private_messages_enabled: "&aAgora você pode receber novas conversas."
+  private_messages_disabled: "&cVocê não pode mais receber novas conversas. Se você iniciar uma conversa com um jogador, ele poderá enviar uma mensagem de volta."
+  private_message_sounds_enabled: "&eVocê ativou os sons de mensagens privadas."
+  private_message_sounds_disabled: "&cVocê desativou os sons de mensagens privadas."
+  lang_change: "&aSeu idioma foi alterado para &f{0}"
+  menu:
+    chat:
+      global_chat_name: "&a&lBate-papo público"
+      global_chat_description: "Se ativado, você receberá mensagens de bate-papo públicas."
+      global_chat_enable: "Receba mensagens de bate-papo público"
+      global_chat_disable: "Não receba mensagens públicas de bate-papo"
+    sound:
+      private_message_sounds_name: "&e&lSons de bate-papo privado"
+      private_message_sounds_description: "Se ativado, um som será reproduzido quando você receber uma mensagem de bate-papo privada."
+      private_message_sounds_enable: "Reproduzir sons de mensagens de bate-papo privado"
+      private_message_sounds_disable: "Não reproduza sons de mensagens de bate-papo privado"
+    pm:
+      private_message_name: "&c&lMensagens privadas"
+      private_message_description: "Se ativado, você receberá mensagens privadas."
+      private_message_enable: "Receba mensagens privadas"
+      private_message_disable: "Não receba mensagens privadas"
+common_errors:
+  failed_to_load_profile: "&cFalha ao carregar seu perfil. tente mais tarde."
+  could_not_resolve_player: "&cNão foi possível resolver as informações do jogador..."
+  player_not_found: "&cNão foi possível encontrar um jogador com esse nome."
+  no_players: "&cNão há jogadores online."
+chat:
+  clear_chat_broadcast: "&eO bate-papo foi excluído por &r{0}"
+  mute_chat_broadcast: "&eO bate-papo foi {0} por &r{1}"
+  delay_chat_enabled_broadcast: "&eO chat foi atrasado por &r{0} &7({1} second{2})"
+  delay_chat_disabled_broadcast: "&eO atraso do chat foi removido por &r{0}"
+  chat_delayed: "&cDesacelerar! você pode conversar novamente em {0} seconds."
+economy:
+  insufficient_money: "&cNão há equilíbrio suficiente."
+  payment_made: ""
+  payment_received: ""
+  subtract_balance: ""
