@@ -1,0 +1,40 @@
+options:
+  global_chat_enabled: "&eYou can now see global chat."
+  global_chat_disabled: "&cYou will no longer see global chat."
+  private_messages_enabled: "&aYou can now receive new conversations."
+  private_messages_disabled: "&cYou can no longer receive new conversations. If you start a conversation with a player, they will be able to message you back."
+  private_message_sounds_enabled: "&eYou enabled private message sounds."
+  private_message_sounds_disabled: "&cYou disabled private message sounds."
+  lang_change: "&aYour language has been change to &f{0}"
+  menu:
+    chat:
+      global_chat_name: "&a&lPublic Chat"
+      global_chat_description: "If enabled, you will receive public chat messages."
+      global_chat_enable: "Receive public chat messages"
+      global_chat_disable: "Do not receive public chat messages"
+    sound:
+      private_message_sounds_name: "&e&lPrivate Chat Sounds"
+      private_message_sounds_description: "If enabled, a sound will be played when you receive a private chat message."
+      private_message_sounds_enable: "Play private chat message sounds"
+      private_message_sounds_disable: "Do not play private chat message sounds"
+    pm:
+      private_message_name: "&c&lPrivate Messages"
+      private_message_description: "If enabled, you will receive private messages."
+      private_message_enable: "Receive private messages"
+      private_message_disable: "Do not receive private messages"
+common_errors:
+  failed_to_load_profile: "&cFailed to load your profile. try again later."
+  could_not_resolve_player: "&cCould not resolve player information..."
+  player_not_found: "&cA player with that name could not be found."
+  no_players: "&cThere are no online players."
+chat:
+  clear_chat_broadcast: "&eEl chat ha sido borrado por &r{0}"
+  mute_chat_broadcast: "&eEl chat ha sido {0} por &r{1}"
+  delay_chat_enabled_broadcast: "&eThe chat has been delayed by &r{0} &7({1} second{2})"
+  delay_chat_disabled_broadcast: "&eThe chat delay has been lifted by &r{0}"
+  chat_delayed: "&cSlow down! you may chat again in {0} seconds."
+economy:
+  insufficient_money: "&cNot enough balance."
+  payment_made: ""
+  payment_received: ""
+  subtract_balance: ""
