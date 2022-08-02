@@ -15,7 +15,7 @@ import org.bukkit.entity.Player;
 public class LangCommand extends BaseCommand {
 
     public LangCommand(){
-        Essentials.getInstance().getManager().getCommandCompletions().registerCompletion("lang", c-> ImmutableList.of("es", "en"));
+        Essentials.getInstance().getManager().getCommandCompletions().registerCompletion("lang", c-> ImmutableList.of("en", "es", "fr", "ja", "po"));
     }
 
     @Default
