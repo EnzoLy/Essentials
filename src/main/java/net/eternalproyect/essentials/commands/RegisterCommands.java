@@ -38,6 +38,7 @@ public class RegisterCommands {
                 new SudoAllCommand(),
                 new SudoCommand(),
                 new SunsetCommand(),
+		new ExpCommand(),
                 new DayCommand(),
                 new FlyCommand(),
                 new HatCommand(),
@@ -53,12 +54,13 @@ public class RegisterCommands {
                 new MoreCommand(),
                 new CopyInventoryCommand(),
                 new SkullCommand(),
-				new InvseeCommand(),
+		new InvseeCommand(),
                 //Teleport Commands
                 new TeleportWorldCommand(),
                 new BackCommand(),
                 new Teleport(),
                 new TeleportHere(),
+		new TeleportAll(),
                 //Economy Commands
                 new BalanceCommand(),
                 new PayCommand(),
