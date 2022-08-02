@@ -11,11 +11,11 @@ import net.eternalproyect.essentials.profile.Profile;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 
-@CommandAlias("lang|lenguaje|idioma")
+@CommandAlias("lang|lenguaje|idioma|language|langue")
 public class LangCommand extends BaseCommand {
 
     public LangCommand(){
-        Essentials.getInstance().getManager().getCommandCompletions().registerCompletion("lang", c-> ImmutableList.of("es", "en"));
+        Essentials.getInstance().getManager().getCommandCompletions().registerCompletion("lang", c-> ImmutableList.of("en", "es", "fr", "ja", "po"));
     }
 
     @Default

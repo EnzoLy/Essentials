@@ -1,0 +1,40 @@
+options:
+  global_chat_enabled: "&eVous pouvez maintenant voir le chat global."
+  global_chat_disabled: "&cVous ne verrez plus le chat global."
+  private_messages_enabled: "&aVous pouvez maintenant recevoir de nouvelles conversations."
+  private_messages_disabled: "&cVous ne pouvez plus recevoir de nouvelles conversations. Si vous démarrez une conversation avec un joueur, il pourra vous répondre."
+  private_message_sounds_enabled: "&eVous avez activé les sons des messages privés."
+  private_message_sounds_disabled: "&cVous avez désactivé les sons des messages privés."
+  lang_change: "&aVotre langue a été changée en &f{0}"
+  menu:
+    chat:
+      global_chat_name: "&a&lChat public"
+      global_chat_description: "Si activé, vous recevrez des messages de discussion publics."
+      global_chat_enable: "Recevoir des messages de discussion publics"
+      global_chat_disable: "Ne pas recevoir de messages de discussion publics"
+    sound:
+      private_message_sounds_name: "&e&lSons de chat privés"
+      private_message_sounds_description: "Si activé, un son sera joué lorsque vous recevrez un message de chat privé."
+      private_message_sounds_enable: "Jouer des sons de message de chat privé"
+      private_message_sounds_disable: "Ne jouez pas les sons des messages de chat privés"
+    pm:
+      private_message_name: "&c&lMessages privés"
+      private_message_description: "Si activé, vous recevrez des messages privés."
+      private_message_enable: "Recevoir des messages privés"
+      private_message_disable: "Ne pas recevoir de messages privés"
+common_errors:
+  failed_to_load_profile: "&cÉchec du chargement de votre profil. Réessayez plus tard."
+  could_not_resolve_player: "&cImpossible de résoudre les informations sur le joueur..."
+  player_not_found: "&cAucun joueur portant ce nom n'a pu être trouvé."
+  no_players: "&cIl n'y a pas de joueurs en ligne."
+chat:
+  clear_chat_broadcast: "&eLe chat a été supprimé par &r{0}"
+  mute_chat_broadcast: "&eLe chat a été {0} par &r{1}"
+  delay_chat_enabled_broadcast: "&eLe chat a été retardé de &r{0} &7({1} second{2})"
+  delay_chat_disabled_broadcast: "&eLe délai de chat a été levé par &r{0}"
+  chat_delayed: "&cRalentir! vous pouvez taper à nouveau dans {0} seconds."
+economy:
+  insufficient_money: "&cPas assez d'équilibre."
+  payment_made: ""
+  payment_received: ""
+  subtract_balance: ""
