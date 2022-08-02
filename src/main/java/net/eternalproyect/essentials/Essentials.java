@@ -10,28 +10,18 @@ import com.mongodb.MongoClient;
 import com.mongodb.client.MongoDatabase;
 import com.qrakn.phoenix.lang.file.language.LanguageConfigurationFile;
 import com.qrakn.phoenix.lang.file.type.BasicConfigurationFile;
-import lombok.Getter;
 import net.eternalproyect.essentials.chat.ChatListener;
-import net.eternalproyect.essentials.chat.command.ClearChatCommand;
-import net.eternalproyect.essentials.chat.command.MuteChatCommand;
-import net.eternalproyect.essentials.chat.command.SlowChatCommand;
 import net.eternalproyect.essentials.commands.*;
-import net.eternalproyect.essentials.commands.inventory.ClearCommand;
-import net.eternalproyect.essentials.commands.inventory.MoreCommand;
-import net.eternalproyect.essentials.commands.teleport.TeleportWorldCommand;
 import net.eternalproyect.essentials.listeners.PlayerListeners;
 import net.eternalproyect.essentials.profile.ProfileListeners;
-import net.eternalproyect.essentials.profile.conversation.command.MessageCommand;
-import net.eternalproyect.essentials.profile.conversation.command.ReplyCommand;
-import net.eternalproyect.essentials.profile.option.command.*;
 import net.eternalproyect.essentials.util.menu.MenuListener;
 import net.milkbowl.vault.chat.Chat;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
-
 import java.lang.reflect.Type;
 import java.util.Arrays;
 import java.util.List;
+import lombok.Getter;
 
 @Getter
 public class Essentials extends JavaPlugin {
